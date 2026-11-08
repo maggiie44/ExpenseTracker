@@ -1,0 +1,5 @@
+.App{
+  width: 50%; /* Or a fixed pixel width like 1200px */
+  max-width: 1200px;
+  margin: 0 auto;
+}
