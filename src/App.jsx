@@ -46,7 +46,7 @@ function App() {
   const [reportAvg, setReportAvg] = useState(0)
   const [entrie, setEntrie] = useState('')
   const [balnce, setBalnce] = useState(0)
-
+//  const [ocrResult, setOcrResult] = useState('');
   const onAddTransaction = (transaction) => {
     setTransactions((prevTransactions) => [transaction, ...prevTransactions]);
   };
