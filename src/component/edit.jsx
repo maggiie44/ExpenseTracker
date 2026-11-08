@@ -27,6 +27,7 @@ const Edit = ({ saveEdit,cancelEdit,transactions,editId }) => {
     },[description, amount, category])
 
 
+    
        const handleSubmit =(e)=>{
         e.preventDefault();
             const newtransaction = {
